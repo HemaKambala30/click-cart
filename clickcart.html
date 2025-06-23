@@ -1,0 +1,306 @@
+
+<html>
+	<head>
+
+		<title>Click Cart</title>
+  
+		<link rel="stylesheet"href="clickcart.css">
+		<link rel="icon"href="http://www.journaldulapin.com/wp-content/uploads/2016/05/Cc_logo.jpg">
+		
+	</head>
+	
+	<body>
+	
+	
+	
+<!--------------------------------navbar1--------------------------------------------------->	
+<div class="navbar1">
+<ul>
+     <pre>    <img src="clickcart logo.png" class="logo"></pre>
+
+<li><input type="text"placeholder="Try Saree,Kurti or Search by Product Code..." style="font-size:20px;"></li>
+
+ <li>Become a Supplier</li>
+<li><figure>
+<img src="https://static.vecteezy.com/system/resources/previews/036/280/650/large_2x/default-avatar
+-profile-icon-social-media-user-image-gray-avatar-icon-blank-profile-silhouette-illustration-vector.jpg" 
+style="width:40px; height:40px;">
+<figcaption style="font-size:20px;">Profile</figcaption>
+</figure></li>
+
+<!--<li class="addcartlogo"><figure>
+<img src="https://pngimg.com/uploads/shopping_cart/shopping_cart_PNG38.png"style="width:40px; height:40px;">
+<span class="cartcount"></span>
+
+<!---<figcaption style="font-size:20px;" onclick="cart()">Cart</figcaption></figure>--->
+
+<span onclick="toggleCart()" style="cursor: pointer; font-size:40px;">🛒Cart</span>
+
+</li>
+</div>
+<!---------------------------------------navbar2----------------------------------------->
+
+<div class="navbar2">
+        
+ <ul>          
+
+<li onclick="toggleMensWear()">Men's Wear</li>
+<li>Women's Wear</li>
+<li>Kid's Wear</li>
+
+<li>Home & Kitchen</li>
+<li>Beauty & Health</li>
+<li>Jewellery & Accessories</li>
+<li>Bags & Footwear</li>
+<li>Electronics</li>
+<li>Sports & Fitness</li>
+</ul>   
+    </div
+	
+<!---------------------------------Cart Section----------------------------------------------------->	
+
+<div class="cartpage">
+    <h3 class="cartpagetitle">Cart Page</h3>
+    <div class="cartpage_items">
+
+  
+	<div class="cart-bottom">
+ <center><h4 class="carttotal">Total Amount to be paid: <span class="total_amount"> 0</span> /-</h4></center>
+  <center>  <div class="cartpage_buttons"><br><br><br>
+        <button onclick="clearCart()" class="clear-btn">Clear Cart</button>\n
+        <button onclick="placeorder()" class="order-btn">Place Order !</button>
+    </div></center>
+</div>
+</div>
+</div>
+
+
+<!-----------------------------------mensimgs------------------------------------->
+
+ <!--------------------------------Products----------------------------------------------
+ 
+	
+
+<!----------------------------------banner1------------------------------------------->
+            
+ <div>
+   <img src="https://images.meesho.com/images/marketing/1746425994914.webp"
+   style="width:100%; height:500px;"></div>
+  
+<!--------------------------------------navbar3---------------------------------------------->
+   <div class="navbar3">
+   <ul>
+<li>7 Days Easy Return</li>
+ <li>Cash on Delivery</li>
+ <li>Lowest Prices</li>
+  </ul>
+  </div>
+ <!--------------------------------------------------------------------->
+ 
+
+		
+ <!----------------------------------------navbar images------------------------------------------>
+ 
+  <div class="allimages">
+  <figure>
+  <img src="https://images.meesho.com/images/marketing/1744634654837.webp">
+  <figcaption  onclick="showWomensWear();">Womens Wear</figcaption>
+  </figure>
+  <figure>
+  <img src="https://images.meesho.com/images/marketing/1744634780426.webp">
+  <figcaption onclick="toggleMensWear()">Mens Wear</figcaption>
+  </figure><figure>
+  <img src="https://images.meesho.com/images/marketing/1744634814643.webp">
+  <figcaption>Foot Wear</figcaption>
+  </figure><figure>
+  <img src="https://images.meesho.com/images/marketing/1744634835018.webp">
+  <figcaption>Home Decor</figcaption>
+  </figure><figure>
+  <img src="https://images.meesho.com/images/marketing/1744634871107.webp">
+  <figcaption>Beauty</figcaption>
+  </figure><figure>
+  <img src="https://images.meesho.com/images/marketing/1744634909968.webp">
+  <figcaption>Accessories</figcaption>
+  </figure><figure>
+  <img src="https://images.meesho.com/images/marketing/1744634937295.webp">
+  <figcaption>Grocery</figcaption>
+  </figure>
+ </div>
+ 
+
+ 
+ <!---------------------------------Banner2-------------------------------------------->
+ 
+ <div id="banner2">
+ <img src="https://images.meesho.com/images/marketing/1744698265981.webp" 
+ style="width:100%;height:80%;">
+ </div>
+  
+ <!--------------------------------mens wear--------------------------------------------->
+ 
+
+
+<!------------mensWearSection------------------------------->
+
+<div id="mensWearSection">
+  
+  <div class="menrow1">		
+         <figure>
+            <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images
+			/2164373/2017/11/15/11510749192975-Roadster-Men-Brown--Black-Regular-Fit-Checked
+			-Casual-Shirt-8071510749192783-1.jpg" class="img1">
+			
+			<figcaption>
+            <h4 class="item_name">Roadstar Checked shirt</h4>
+            <h4>Rs.<del>1999</del> <span class="item_price">1129</span></h4>
+            <input type="button" value="Add-to-cart" class="item_btn">
+            </figcaption>
+		</figure>
+		<figure>	
+			<img src="https://cdn.shopify.com/s/files/1/0981		
+			/8178/files/tone-on-tone-dressing-blue-oxford-shirt.jpg?5470127182368086585.jpg"class="img1">
+			
+			<figcaption>
+            <h4 class="item_name">formal dress</h4>
+            <h4>Rs.<del>1999</del> <span class="item_price">1129</span></h4>
+            <input type="button" value="Add-to-cart" class="item_btn">
+            </figcaption>
+		</figure>
+		<figure>	
+			<img src="https://www.patanjaliparidhan.com/pub/media/catalog/product/cache/2d10fd
+			d5f2c9e29bc0fb816e3f3e598c/p/m/pmfwshpfso1841011navy_1_3.jpg"class="img1">
+			
+			<figcaption>
+            <h4 class="item_name">formal dress</h4>
+            <h4>Rs.<del>1999</del> <span class="item_price">1129</span></h4>
+            <input type="button" value="Add-to-cart" class="item_btn">
+            </figcaption>
+		</figure>
+		<figure>
+			<img src="https://ae01.alicdn.com/kf/HTB1F7X2KFXXXXXZXXXXq6xXFXXXy/Men-s-clothing-ez
+			-modern-elegant-business-casual-cashmere-silk-blending-high-quality-suit.jpg"class="img1">
+			
+			<figcaption>
+            <h4 class="item_name">Slim Fit Smart Casual Blazer</h4>
+            <h4>Rs.<del>1999</del> <span class="item_price">1129</span></h4>
+            <input type="button" value="Add-to-cart" class="item_btn">
+            </figcaption>
+		</figure>
+		<figure>
+			<img src="https://i.pinimg.com/originals/21/be/07/21be0782176111253786535e2c5c8e70.jpg"class="img1">
+
+			<figcaption>
+            <h4 class="item_name">Slim Fit Smart Casual Blazer</h4>
+            <h4>Rs.<del>1999</del> <span class="item_price">1129</span></h4>
+            <input type="button" value="Add-to-cart" class="item_btn">
+            </figcaption>
+		</figure>
+		
+	</div>
+	<div class="menrow2" >
+		<figure>
+			<img src="https://thehouseofrare.com/cdn/shop/products/IMG_0586_8bd130d1-
+			149d-4c58-8691-09d352a1fa7a_800x.jpg?v=1675748735"
+            class="img2">
+			<figcaption>
+            <h4 class="item_name">Roadstar Denim shirt</h4>
+            <h4>Rs.<del>1999</del> <span class="item_price">1129</span></h4>
+            <input type="button" value="Add-to-cart" class="item_btn">
+            </figcaption>
+		</figure>
+		
+		<figure>		
+			<img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/
+			1364628/2016/8/31/11472636737718-Roadster-Men-Blue-Regular-Fit-Printed-Casual
+			-Shirt-6121472636737160-1.jpg" class="img2">
+			
+			<figcaption>
+            <h4 class="item_name">Roadstar Denim shirt</h4>
+            <h4>Rs.<del>1999</del> <span class="item_price">1129</span></h4>
+            <input type="button" value="Add-to-cart" class="item_btn">
+            </figcaption>
+		</figure>
+		<figure>
+            <img src="https://thehouseofrare.com/cdn/shop/products/IMG_0586_8bd130d1-149d-
+			4c58-8691-09d352a1fa7a_800x.jpg?v=1675748735" class="img2">
+			
+			<figcaption>
+            <h4 class="item_name">Roadstar Denim shirt</h4>
+            <h4>Rs.<del>1999</del> <span class="item_price">1129</span></h4>
+            <input type="button" value="Add-to-cart" class="item_btn">
+            </figcaption>
+		</figure>
+          <figure>  
+		    <img src="https://i.pinimg.com/originals/96/95/b1/9695b1ae295d21d1fe094e0cbd7d8d89.jpg"class="img2">
+			
+			<figcaption>
+            <h4 class="item_name">Roadstar Denim shirt</h4>
+            <h4>Rs.<del>1999</del> <span class="item_price">1129</span></h4>
+            <input type="button" value="Add-to-cart" class="item_btn">
+            </figcaption>
+		</figure>
+		<figure>
+			<img src="https://i.pinimg.com/originals/ee/dc/9c/eedc9ca3c10388066fdebca301f8ea6f.jpg"class="img2">
+			
+			<figcaption>
+            <h4 class="item_name"> T-shirt</h4>
+            <h4>Rs.<del>999</del> <span class="item_price">599</span></h4>
+            <input type="button" value="Add-to-cart" class="item_btn">
+            </figcaption>
+		</figure>
+    </div>
+	<div class="menrow3">
+	<figure>
+			<img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images
+			/2164373/2017/11/15/11510749192975-Roadster-Men-Brown--Black-Regular-Fit-Checked
+			-Casual-Shirt-8071510749192783-1.jpg" class="img3">
+			<figcaption>
+            <h4 class="item_name">Roadstar Denim shirt</h4>
+            <h4>Rs.<del>1999</del> <span class="item_price">1129</span></h4>
+            <input type="button" value="Add-to-cart" class="item_btn">
+            </figcaption>
+		</figure>
+         <figure>   
+			<img src="https://cdn.shopify.com/s/files/1/0981		
+			/8178/files/tone-on-tone-dressing-blue-oxford-shirt.jpg?5470127182368086585.jpg"class="img3">
+			
+			<figcaption>
+            <h4 class="item_name">Roadstar Denim shirt</h4>
+            <h4>Rs.<del>1999</del> <span class="item_price">1129</span></h4>
+            <input type="button" value="Add-to-cart" class="item_btn">
+            </figcaption>
+		</figure>
+		<figure>	
+			<img src="https://www.patanjaliparidhan.com/pub/media/catalog/product/cache/2d10fd
+			d5f2c9e29bc0fb816e3f3e598c/p/m/pmfwshpfso1841011navy_1_3.jpg"class="img3">
+			<figcaption>
+            <h4 class="item_name">Roadstar Denim shirt</h4>
+            <h4>Rs.<del>1999</del> <span class="item_price">1129</span></h4>
+            <input type="button" value="Add-to-cart" class="item_btn">
+            </figcaption>
+		</figure>
+			<figure>
+             
+              <img src="https://ae01.alicdn.com/kf/HTB1F7X2KFXXXXXZXXXXq6xXFXXXy/Men-s-clothing-ez
+              -modern-elegant-business-casual-cashmere-silk-blending-high-quality-suit.jpg"class="img3">
+			  <figcaption>
+            <h4 class="item_name">Slim Fit Smart Casual Blazer</h4>
+            <h4>Rs.<del>6999</del> <span class="item_price">4999</span></h4>
+            <input type="button" value="Add-to-cart" class="item_btn">
+            </figcaption>
+		</figure>
+    		<figure>
+             <img src="https://i.pinimg.com/originals/21/be/07/21be0782176111253786535e2c5c8e70.jpg"class="img3">
+			 
+			 <figcaption>
+            <h4 class="item_name">Slim Fit Smart Casual Blazer</h4>
+            <h4>Rs.<del>6999</del> <span class="item_price">4999</span></h4>
+            <input type="button" value="Add-to-cart" class="item_btn">
+            </figcaption>
+		</figure>
+    		
+    		</div>
+   </div>
+   <script src="clickcart.js"></script>
+   </body>
+   </html>
